@@ -1,0 +1,124 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Carousel/Slideshow</title>
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+      
+        body {
+            display: flex;
+            justify-content: center;  
+            align-items: center;     
+            height: 100vh;          
+            margin: 0;                
+            background-color: lightgrey;
+        }
+
+        
+        .container {
+            width: 100%;
+            max-width: 800px; 
+            padding: 0;
+        }
+
+      
+        .carousel-inner > .item > img {
+            width: 100%;  
+            height: auto; 
+            margin: auto;  
+            object-fit: cover;  
+        }
+
+        
+        .carousel-control {
+            background-image: none;
+        }
+
+        .carousel-caption {
+            display: none; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="theCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#theCarousel" data-slide-to="1"></li>
+                <li data-target="#theCarousel" data-slide-to="2"></li>
+                <li data-target="#theCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="../img/6.jfif" alt="Ilustración">
+                </div>
+                <div class="item">
+                    <img src="../img/7.jfif" alt="Fotografía">
+                </div>
+                <div class="item">
+                    <img src="../img/8.jfif" alt="Pintura">
+                </div>
+                <div class="item">
+                    <img src="../img/9.jfif" alt="Diseño">
+                </div>
+            </div>
+
+           
+            <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+
+<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	width:1793px;
+	height:115px;
+	z-index:1;
+	top: -2px;
+	left: 1px;
+}
+#Layer2 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 505px;
+	top: 2px;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="Layer1">
+  <table width="1791" height="116" border="1">
+    <tr>
+      <td bgcolor="#C5E3D7">&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<div id="Layer2"><img src="../img/CONTENIDO.png" width="513" height="69" /></div>
+</body>
+</html>

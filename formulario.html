@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Formulario</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link href="file:///C|/Users/LABORATORIO 4/00walmartlezly/PW/m.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	width:1789px;
+	height:47px;
+	z-index:1;
+	background-color: #C5E3D7;
+	top: 5px;
+	left: 4px;
+}
+#Layer2 {
+	position:absolute;
+	width:225px;
+	height:143px;
+	z-index:2;
+	left: 904px;
+	top: 197px;
+}
+#Layer3 {
+	position:absolute;
+	width:772px;
+	height:50px;
+	z-index:3;
+	left: 605px;
+	top: 86px;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div id="Layer1"></div>
+  <br>
+
+  <!-- Formulario -->
+  <form id="form1" name="form1" method="post" action="">
+    <p class="Estilo1">&nbsp;</p>
+    <p class="Estilo1">&nbsp;</p>
+    <p class="Estilo1">&nbsp;</p>
+    <p class="Estilo1">&nbsp;</p>
+    <p class="Estilo1">&nbsp;</p>
+    <p class="Estilo1">&nbsp;</p>
+    <p class="Estilo1">¿Qué edad tienes?</p>
+    <p>
+      <label>
+        <input name="edad" type="radio" value="6-13" />
+        6 a 13 años
+      </label>
+      <label>
+        <input name="edad" type="radio" value="14-18" />
+        14 a 18 años
+      </label>
+    </p>
+    <p class="Estilo3">Sexo:</p>
+    <p>
+      <label>
+        <input name="sexo" type="radio" value="femenino" />
+        Femenino
+      </label>
+      <label>
+        <input name="sexo" type="radio" value="masculino" />
+        Masculino
+      </label>
+    </p>
+    <p class="Estilo3">Comparte tu experiencia: ¿Qué hiciste, te ayudaron? ¿Cómo lo enfrentaste?</p>
+    <p>
+      <label>Comentario
+        <input type="text" name="comentario" />
+      </label>
+    </p>
+    <p class="Estilo3">¿Qué consejo podrías compartir?</p>
+    <p>
+      <label>Consejo
+        <input type="text" name="consejo" />
+      </label>
+    </p>
+
+    <!-- Botón de enviar -->
+    <p>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </p>
+  </form>
+</div>
+
+<style type="text/css">
+/* Estilos para el formulario */
+form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.Estilo1, .Estilo3 {
+    color: #333;
+}
+
+.Estilo1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Estilo3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilos para los botones de radio */
+label {
+    font-size: 18px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+/* Estilo para el botón de enviar */
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del contenedor del formulario */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+</style>
+<div id="Layer2"><img src="../img/logo.jpg" width="200" height="200" /></div>
+<div id="Layer3"><img src="../img/formulario.png" /></div>
+</body>
+</html>
+
